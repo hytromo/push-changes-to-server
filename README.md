@@ -86,8 +86,6 @@ Go to `Tasks->Configure Tasks...` and input this:
 
 ```json
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -121,3 +119,7 @@ Change the `command` fields to point to this project's `index.js` file in your f
 After you save the file, you can run these tasks through `Tasks->Run Task`.
 
 If you want, you can bind a shortcut to `Tasks->Run Task` to access it more quickly.
+
+## I need to restart the server after its code is changed
+
+This project doesn't do this. Run your dev server with something like `nodemon` that autodetects changes.
