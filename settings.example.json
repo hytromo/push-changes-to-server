@@ -1,0 +1,11 @@
+{
+    "sshKey": "/path/to/ssh/key",
+    "local": {
+        "projectPath": "/path/to/local/project"
+    },
+    "remote": {
+        "host": "remote ip / host",
+        "user": "remote user name",
+        "projectPath": "/path/to/remote/project"
+    }
+}

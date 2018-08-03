@@ -1,0 +1,10 @@
+{
+  "name": "push-changes-to-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-ssh": "^5.1.2",
+    "simple-git": "^1.96.0"
+  }
+}
