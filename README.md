@@ -2,7 +2,7 @@
 
 ## What is this
 
-You develop a server app that you don't run locally, only in a developer server. Why? Because it can depend on 100 different things and be hard to setup databases, slaves, redis and so on.
+You develop a server app that you don't run locally, only in a development server. Why? Because it can depend on 100 different things and be hard to setup databases, slaves, redis and so on.
 
 You need to push your changes to the server in order to test things out, before you actually commit anything.
 
